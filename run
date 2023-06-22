@@ -1,2 +1,11 @@
 #!/bin/sh
 
+#upgrade pip version
+
+python -m pip install --upgrade pip
+
+#Install dependence
+pip install django
+
+# Run application
+python manage.py runserver
